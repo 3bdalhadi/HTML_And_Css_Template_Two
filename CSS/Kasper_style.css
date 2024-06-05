@@ -193,7 +193,7 @@ header nav .form i {
 .landing {
     min-height: 100vh;
     background-color: #1f2021;
-    background-image: url("images/landing.jpg");
+    background-image: url("../images/landing.jpg");
     background-size: cover;
     position: relative;
   }
@@ -330,7 +330,7 @@ header nav .form i {
   padding-bottom: var(--section-padding);
   height: 600px;
   position: relative;
-  background-image: url("images/design-features.jpg");
+  background-image: url("../images/design-features.jpg");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -389,22 +389,22 @@ header nav .form i {
 /* end design style */
 
 /* start PORTFOLIO style */
-.Portfolio {
+#Portfolio {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
 }
-.Portfolio .container ul {
+#Portfolio .container ul {
   display: flex;
   justify-content: center;
 }
-.Portfolio .container ul li {
+#Portfolio .container ul li {
   padding: 10px;
 }
-.Portfolio .container ul li.active{
+#Portfolio .container ul li.active{
   background-color: var(--main-color);
   color: white;
 }
-  .Portfolio .images-container{
+  #Portfolio .images-container{
   display: flex;
   flex-wrap:wrap ;
   margin-top: 60PX;
@@ -435,13 +435,13 @@ header nav .form i {
 
 }
 @media (min-width:1199px) {
-  .Portfolio .images-container .image-card{
+  #Portfolio .images-container .image-card{
     flex-basis: 25%;
   }
   
 }
 @media (min-width:768px) {
-  .Portfolio .images-container .image-card{
+  #Portfolio .images-container .image-card{
     flex-basis: 50%;
   }
 }
@@ -510,20 +510,20 @@ header nav .form i {
 /* end video style */
 
 /* start About style */
-.About {
+#About {
      padding-top: var(--section-padding);
      overflow: hidden;
      text-align: center;
 }
 
-.About img{
+#About img{
   position: relative;
   bottom: -120px;
   max-width: 100%;
   margin-top: -120px;
 }
 @media(max-width:768px){
-  .About img{
+  #About img{
     bottom: -60px;
     margin-top: -60px;
 }
@@ -534,7 +534,7 @@ header nav .form i {
 .stats{
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-image: url(images/stats.png);
+  background-image: url(../images/stats.png);
   background-size: cover;
   position: relative;
   text-align: center;
@@ -717,7 +717,7 @@ font-size: 14px;
 .quote{
   padding-top: var(--section-padding);
   padding-bottom:var(--section-padding);
-  background:url(images/quote.jpg);
+  background:url(../images/quote.jpg);
   background-size: cover;
   position: relative;
   text-align: center;
@@ -748,36 +748,36 @@ font-size: 14px;
 /* end Quote style */
 
 /* start pricing style */
-.pricing {
+#Pricing {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
 }
-.pricing .plans{
+#Pricing .plans{
  display: grid;
  grid-template-columns: repeat(auto-fill,minmax(250px ,1fr));
  column-gap: 30px;
  row-gap: 40px;
 }
-.pricing .plans .plan{
+#Pricing .plans .plan{
   background-color: #fcfcfc;
   text-align: center;
 }
-.pricing .plans .head{
+#Pricing .plans .head{
   padding: 40px 20px;
   border-bottom: 1px solid var(--main-color);
   border-top: 1px solid var(--main-color);
 }
-.pricing .plans .head h3{
+#Pricing .plans .head h3{
   font-weight: normal;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
-.pricing .plans .head span{
+#Pricing .plans .head span{
   display: block;
   font-size: 60px;
   font-weight: bold;
 }
-.pricing .plans .head span::before{
+#Pricing .plans .head span::before{
   content: "$";
   font-size: 25px;
   font-weight: normal;
@@ -786,19 +786,19 @@ font-size: 14px;
   margin-right: 15px
 
 }
-.pricing .plans .head span::after{
+#Pricing .plans .head span::after{
   content: "/MO";
   font-size: 20px;
   margin-left: 15px;
 }
-.pricing .plans ul{
+#Pricing .plans ul{
   border-bottom: 1px solid var(--main-color);
 }
-.pricing .plans ul li {
+#Pricing .plans ul li {
   padding: 20px;
   position: relative;
 }
-.pricing .plans ul li:not(:last-child)::after{
+#Pricing .plans ul li:not(:last-child)::after{
   content: "";
   display: block;
   width: 140px;
@@ -809,7 +809,7 @@ font-size: 14px;
   transform: translateX(-50%);
   bottom: 0;
 }
-.pricing .plans .footer-pri a{
+#Pricing .plans .footer-pri a{
   text-transform: capitalize;
   display: block;
   margin: 30px auto;
@@ -819,19 +819,19 @@ font-size: 14px;
   font-weight: 560;
  
 }
-.pricing .plans .footer-pri a:hover{
+#Pricing .plans .footer-pri a:hover{
   background-color: var(--main-color);
   border:1px solid #fff;
   color: white;
 
 }
-.pricing .container .contact-text{
+#Pricing .container .contact-text{
   margin-top: 50px;
   margin-bottom: 20px;
   color: black;
   font-size: 20px;
 }
-.pricing .container .contact-link{
+#Pricing .container .contact-link{
   display: block;
   padding: 15px 30px;
   border: 1px solid var(--main-color);
@@ -847,7 +847,7 @@ font-size: 14px;
 .subscribe {
  padding-top:var(--section-padding)  ;
  padding-bottom:var(--section-padding)  ;
- background: url(images/subscribe.jpg);
+ background: url(../images/subscribe.jpg);
  background-size: cover;
  position: relative;
  color: white;
@@ -925,25 +925,25 @@ font-size: 14px;
 /* end subscribe style */
 
 /* start contact us style */
-.contact {
+#Contact {
 padding-top: var(--section-padding);
 padding-bottom:var(--section-padding);
 
 }
-.contact .content {
+#Contact .content {
   display: flex;
   justify-content: space-between;
 }
 
-.contact form{
+#Contact form{
   flex-basis: 70%;
 }
 @media (max-width: 767px) {
-  .contact .content {
+  #Contact .content {
     flex-direction: column;
   }
 }
-.contact form .main-input{
+#Contact form .main-input{
   display: block;
   margin-bottom: 30px;
   padding: 20px;
@@ -951,13 +951,13 @@ padding-bottom:var(--section-padding);
   border: 1px solid #ccc;
   border-radius: 8px
 }
-.contact form .main-input:focus{
+#Contact form .main-input:focus{
   outline: none;
 }
-.contact form textarea.main-input{
+#Contact form textarea.main-input{
  height: 200px;
 }
-.contact form input[type="submit"]{
+#Contact form input[type="submit"]{
   padding: 20px;
   background: var(--main-color);
   color: white;
@@ -969,40 +969,40 @@ padding-bottom:var(--section-padding);
   text-transform: uppercase;
   cursor: pointer;
 }
-.contact .info{
+#Contact .info{
   flex-basis: 25%;
 }
 @media (max-width: 767px) {
-   .contact .info {
+   #Contact .info {
     order: -1;
     text-align: center;
   }
 }
-.contact .info h4{
+#Contact .info h4{
   text-transform: uppercase;
   margin-bottom: 30px;
   font-weight: 500;
   font-size: 18px;
 }
-.contact .info .phone{
+#Contact .info .phone{
   display: block;
   color: #777;
   margin-bottom: 10px;
 }
-.contact .info h4:nth-of-type(2){
+#Contact .info h4:nth-of-type(2){
  margin-top: 80px;
 }
 @media (max-width: 767px) {
-  .contact  .info h4:nth-of-type(2) {
+  #Contact  .info h4:nth-of-type(2) {
     margin-top: 30px;
   }
 }
-.contact .info address{
+#Contact .info address{
   color: #777;
   line-height: 2;
 }
 @media (max-width: 767px) {
-  .contact  .info address {
+  #Contact  .info address {
     margin-bottom: 40px;
   }
 }
@@ -1012,7 +1012,7 @@ padding-bottom:var(--section-padding);
 .footer{
   padding-top: 25px;;
   padding-bottom:25px;
-  background-image: url(images/footer.jpg);
+  background-image: url(../images/footer.jpg);
   background-size: cover;
   color: #fff;
   position: relative;
