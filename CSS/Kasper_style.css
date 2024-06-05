@@ -193,7 +193,7 @@ header nav .form i {
 .landing {
     min-height: 100vh;
     background-color: #1f2021;
-    background-image: url("/images/landing.jpg");
+    background-image: url("images/landing.jpg");
     background-size: cover;
     position: relative;
   }
@@ -330,7 +330,7 @@ header nav .form i {
   padding-bottom: var(--section-padding);
   height: 600px;
   position: relative;
-  background-image: url("../images/design-features.jpg");
+  background-image: url("images/design-features.jpg");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -534,7 +534,7 @@ header nav .form i {
 .stats{
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-image: url(/images/stats.png);
+  background-image: url(images/stats.png);
   background-size: cover;
   position: relative;
   text-align: center;
@@ -717,7 +717,7 @@ font-size: 14px;
 .quote{
   padding-top: var(--section-padding);
   padding-bottom:var(--section-padding);
-  background:url(/images/quote.jpg);
+  background:url(images/quote.jpg);
   background-size: cover;
   position: relative;
   text-align: center;
@@ -847,7 +847,7 @@ font-size: 14px;
 .subscribe {
  padding-top:var(--section-padding)  ;
  padding-bottom:var(--section-padding)  ;
- background: url(/images/subscribe.jpg);
+ background: url(images/subscribe.jpg);
  background-size: cover;
  position: relative;
  color: white;
@@ -1012,7 +1012,7 @@ padding-bottom:var(--section-padding);
 .footer{
   padding-top: 25px;;
   padding-bottom:25px;
-  background-image: url(/images/footer.jpg);
+  background-image: url(images/footer.jpg);
   background-size: cover;
   color: #fff;
   position: relative;
